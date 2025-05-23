@@ -7,15 +7,18 @@ assignees: ''
 
 ---
 
-## 📄 Describe
-> 
-
-
-## ✔️ TODOS
-- [ ] TODO
-- [ ] TODO
-- [ ] TODO
-
-
-## 📎 More
->
+labels: ["feature"]
+body:
+  - type: textarea
+    attributes:
+      label: 📄 Describe
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: ✅ TODO
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 📎 More
