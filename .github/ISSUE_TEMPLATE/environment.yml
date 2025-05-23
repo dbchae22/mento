@@ -1,10 +1,10 @@
-name: "\U0001F30F Environment"
+name: "🌏 Environment"
 description: "Development environment settings"
-labels: "\U0001F30F Environment"
+labels: "🌏 Environment"
 body:
   - type: textarea
     attributes:
-      label: \U0001F30F Describe
+      label: 🌏 Describe
       description: 현재 상황
     validations:
       required: true
