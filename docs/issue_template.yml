@@ -1,0 +1,17 @@
+name: "✨ Feature"
+description: "새로운 기능 추가 또는 개선 사항"
+labels: ["feature"]
+body:
+  - type: textarea
+    attributes:
+      label: 📄 Describe
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: ✅ Todos
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 📎 More
